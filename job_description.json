@@ -1,0 +1,23 @@
+{
+     "machineType": "mi6xlarge",
+     "image": "docker.polly.elucidata.io/elucidata/mc_proteomics_pipeline_maxquant_update_polly",
+     "tag": "v0.0.1",
+     "name": "mc_proteomics for testing",
+     "timelimit": 144,
+     "env": {
+        "WORKSPACE_ID":"9994",
+        "FILE_PATH_SOURCE":"launcher.sh",
+
+        "WORKSPACE_ID_FOR_raw_FILES":"8628",
+        "FOLDER_PATH_OF_raw_FILES":"Pride_PXD006395_Raw/",
+      
+        "WORKSPACE_ID_FOR_Fasta_FILES":"9738",
+        "FOLDER_PATH_OF_Fasta_FILES":"fasta/UP000005640_9606.fasta", 
+      
+        "CONFIG_FILE_WORKSPACE_ID":"8628",
+        "CONFIG_FILE_PATH":"Pride_PXD006395_Raw/mqpar_edited.xml",
+      
+        "MaxQuant_OUTPUT_WORKSPACE_ID":"9994",
+        "MaxQuant_OUTPUT_PATH":"MaxQuant_OUTPUT_PATH"
+    }
+}
